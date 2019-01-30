@@ -11,3 +11,15 @@ def sort_array_char_count(array)
     a.length <=> b.length
   end
 end
+
+def swap_elements(array, index, destination_index)
+  temp = array[index]
+  array[index] = array[destination_index]
+  array[destination_index] = temp
+end
+
+def reverse_array(array)
+end
+
+def kesha_maker(array)
+end
