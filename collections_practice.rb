@@ -25,7 +25,11 @@ end
 
 def kesha_maker(array)
   array.collect do |string|
-    i=0
+    i = 0
     while i < string.length
+      yield(string[2] = '$')
+      i+=1
+    end
   end
+  array
 end
