@@ -24,5 +24,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.collect {|string, chars| chars[2] = '$'} 
+  new_array = []
+  temp = []
+  array.each do |string|
+    
+    temp = string.chars[2] = '$'
+    temp.join << new_array
+  end  
 end
