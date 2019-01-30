@@ -25,7 +25,7 @@ end
 
 def kesha_maker(array)
   array.collect do |string|
-    string.eeach_with_index {|chars, index| index == 2 ? chars = '$' : chars}
+    string.each_with_index {|chars, index| index == 2 ? chars = '$' : chars}
 
   end
 end
