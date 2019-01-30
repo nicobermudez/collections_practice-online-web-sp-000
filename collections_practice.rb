@@ -12,10 +12,10 @@ def sort_array_char_count(array)
   end
 end
 
-def swap_elements(array, index, destination_index)
-  temp = array[index]
-  array[index] = array[destination_index]
-  array[destination_index] = temp
+def swap_elements(array)
+  temp = array[1]
+  array[1] = array[2]
+  array[2] = temp
   array
 end
 
@@ -28,4 +28,7 @@ def kesha_maker(array)
       string[2] = '$'
   end
   array
+end
+
+def find_a(array)
 end
