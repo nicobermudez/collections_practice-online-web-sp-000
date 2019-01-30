@@ -33,3 +33,9 @@ end
 def find_a(array)
   array.select {|string| string.start_with?("a")}
 end
+
+def sum_array(array)
+  sum = 0
+  array.each {|number| sum+= number}
+  number
+end
